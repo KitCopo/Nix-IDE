@@ -7,15 +7,10 @@ COMEÇO 21/01/2025 FIM &&/&&/&&
 // NIX IDE MAIN CODE
 
 #include <stdio.h> 
-#include "Vanguarde/vanguarde.h"
-
-#define System_Windows 'w'
+#include <windows.h> 
 
 int main()
-{ 
-  if (Compatibility() == System_Windows)
-  {
-    printf("Hello World");
-  }
-  return 0;     
+{
+  printf("Hello World");
+  return 0;
 }
